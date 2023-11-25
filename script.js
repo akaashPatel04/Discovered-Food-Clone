@@ -46,7 +46,7 @@ function imgAnim() {
     scrollTrigger: {
       trigger: "#circle",
       scroller: ".grand-pita",
-      start: "top 80%",
+      start: "top 95%",
       end: "bottom 40%",
       scrub: 4,
     },
@@ -57,7 +57,7 @@ function imgAnim() {
     scrollTrigger: {
       trigger: "#rt-1",
       scroller: ".grand-pita",
-      start: "top 80%",
+      start: "top 95%",
       end: "bottom 80%",
       scrub: 2,
       markers: false,
@@ -69,7 +69,7 @@ function imgAnim() {
     scrollTrigger: {
       trigger: "#rt-2",
       scroller: ".grand-pita",
-      start: "top 80%",
+      start: "top 95%",
       end: "bottom 70%",
       scrub: 2,
       markers: false,
@@ -81,7 +81,7 @@ function imgAnim() {
     scrollTrigger: {
       trigger: "#rt-3",
       scroller: ".grand-pita",
-      start: "top 80%",
+      start: "top 95%",
       end: "bottom 70%",
       scrub: 2,
       markers: false,
@@ -93,7 +93,7 @@ function imgAnim() {
     scrollTrigger: {
       trigger: "#rt-4",
       scroller: ".grand-pita",
-      start: "top 80%",
+      start: "top 95%",
       end: "bottom 70%",
       scrub: 2,
       markers: false,
@@ -105,7 +105,7 @@ function imgAnim() {
     scrollTrigger: {
       trigger: "#rt-5",
       scroller: ".grand-pita",
-      start: "top 80%",
+      start: "top 95%",
       end: "bottom 70%",
       scrub: 2,
       markers: false,
@@ -117,7 +117,7 @@ function imgAnim() {
     scrollTrigger: {
       trigger: "#rt-6",
       scroller: ".grand-pita",
-      start: "top 80%",
+      start: "top 95%",
       end: "bottom 70%",
       scrub: 2,
       markers: false,
@@ -178,7 +178,7 @@ function textAnim() {
     scrollTrigger: {
       trigger: "#mani .fff a",
       scroller: ".grand-pita",
-      start: "top 80%",
+      start: "top 95%",
       end: "bottom 80%",
       scrub: 2,
       markers: false

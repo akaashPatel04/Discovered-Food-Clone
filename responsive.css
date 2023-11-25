@@ -1,0 +1,269 @@
+@media (max-width:1025px) {
+    .home {
+        margin: 28vw 5vw;
+    }
+
+    .home div h1 {
+        font-size: 15vw;
+    }
+
+    header .logo h1 {
+        font-size: 6vw;
+    }
+
+    nav a {
+        font-size: 5vw;
+    }
+
+    .one #s1-img-cont {
+        height: 75vw;
+        width: 100%;
+    }
+
+    .two {
+        height: fit-content;
+        flex-direction: column-reverse;
+        margin: 11vw 0;
+        padding: 5vw 0;
+    }
+
+    .two .two-right{
+        width: 100%;
+    }
+
+    .two .two-right .right-text{
+       width: 110%;
+       padding: 0 0;
+       gap:6vw;
+    }
+
+    .right-text p{
+      font-size: 2vw;
+    }
+
+    .two .two-right .right-text h4{
+        font-size: 8vw;
+    }
+
+    .two .two-right .right-img{
+        width: 76%;
+    }
+
+    .two .two-left {
+        margin-left: 25%;
+        width: 75%;
+    }
+
+    .two .two-left img {
+        height: 80vw;
+    }
+    
+    .three .big-img-container{
+        height: 100vw;
+    }
+
+    .three .second-child2{
+        flex-direction: column;
+    }
+
+    .three .second-left{
+        width: 100%;
+    }
+    .second-left .second-text{
+        width: 100%;
+        padding: 0;
+    }
+
+    .second-left h4{
+        font-size: 9vw;
+    }
+
+    .second-left p{
+        font-size: 2vw;
+        margin-bottom: 6vw;
+    }
+
+    .second-left a{
+        font-size: 1.8vw;
+    }
+    
+    .second-left .second-img{
+         margin-left: 20vw;
+         height: 100vw;
+    }
+
+    .three .second-right{
+        width: 80%;
+        margin: 8vw 0;
+        overflow: hidden;
+        height: 80vw;
+    }
+    .three .second-right img{
+        height: 80vw;
+        scale:1;
+    }
+    .four .dad{
+        display: none;
+    }
+    .five>div{
+        flex-direction: column-reverse;
+    }
+    .five span{
+        left: 0vw;
+        top:1vw;
+        font-size: 2.5vw;
+    }
+    .five .rrr{
+        width: 90%;
+    }
+    .rrr-text h4{
+        font-size: 8vw;
+    }
+    .rrr-text p{
+        width: 140%;
+        font-size: 1vw;
+    }
+    .rrr-text a{
+        display: inline-block;
+        text-align: left;
+        margin: 12vw 0;
+        font-size: 2vw;
+    }
+    
+    .five .rrr-img{
+        height: 80vw;
+    }
+    .five .lll-img{
+        height: 65vw;
+        margin: 8vw 0 5vw 32vw;
+    }
+    .series{
+        margin-left: 4vw;
+    }
+    .six span{
+        position: relative;
+        display: inline-block;
+        width: 30vw;
+        height: 10vw;
+        margin-left: 5vw;
+        padding: 00vw 0;
+    }
+    .six span .idea2{
+        margin-left:0vw;
+    }
+     .six span h1{
+        position: relative;
+        font-size: 11vw;
+        transform: rotate(0deg);
+    }
+    .six .series{
+        margin-top: 22vw;
+    }
+    .series .movie{
+        margin: 0 5vw;
+        width: 60vw;
+        height: 70vw;
+    }
+    .series .movie .hinn{
+        font-size: 6vw;
+    }
+    footer{
+        padding-left: 6vw;
+    }
+    footer #mani{
+        flex-direction: column;
+    }
+    #mani .Foot-l{
+        width: 100%;
+    }
+    .Foot-l>div a{
+        font-size: 10vw;
+    }
+    .Foot-l>div span{
+        font-size: 4vw;
+        border-top: none;
+    }
+    footer .Foot-r{
+        width: 100%;
+    }
+    .Foot-r .links{
+        display: grid;
+        grid-template-columns: 40vw 40vw;
+        grid-template-rows: 20vw;
+        margin: 10vw 0;
+    }
+    .Foot-r .links a{
+        font-size: 4.5vw;
+    }
+    .Foot-r p{
+        font-size: 2vw;
+    }
+    .Foot-r .imp{
+        height: 15vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.2vw;
+        gap: 3vw;
+        padding-right: 5vw;
+    }
+    .Foot-r .imp a{
+        padding: 1.5vw 2vw;
+        font-size: 3vw;
+    }
+    footer .fooo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .fooo p{
+          font-size: 3vw;
+          width: 60%;
+          margin-bottom: 5vw;
+    }
+    footer .fooo a{
+        font-size: 3vw;
+  }
+}
+
+@media (max-width:650px) {
+    .home {
+        margin: 15vw 5vw;
+    }
+    .right-text h4{
+        font-size: 8vw;
+        width: 110%;
+    }
+    .right-text p{
+        font-size: 5vw;
+        width: 110%;
+    }
+    .right-text a{
+        font-size: 4vw;
+        width: 95%;
+    }
+    .second-text p{
+        font-size: 5vw;
+    }
+    .second-text a{
+        font-size: 4vw;
+    }
+    .second-img{
+        height: 100vw;
+    }
+    .second-img img{
+        height: 100vw;
+    }
+    .rrr-text p{
+        font-size: 5vw;
+        line-height: 1.8;
+        width: 130%;
+        margin: 3vw 0;
+    }
+    .rrr-text a{
+        font-size: 4vw;
+    }
+    
+
+
+}

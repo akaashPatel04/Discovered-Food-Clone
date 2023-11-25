@@ -1,0 +1,590 @@
+@font-face {
+    font-family: morion;
+    src: url(./morion-b7old.332ab69e.woff2);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: morion;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100vw;
+    background-color: #E1E0DA;
+    
+}
+
+.grand-pita {
+    width: 100%;
+}
+
+/* #crsr{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    position: absolute;
+    border: 1px solid #000;
+    z-index: 11;
+} */
+
+/* Section ONE */
+
+.one {
+    background-color: #E1E0DA;
+}
+
+header {
+    width: 90vw;
+    height: 120px;
+    background-color: #E1E0DA;
+    margin-bottom: -5vh;
+}
+
+header .logo {
+    position: fixed;
+    top: 4vw;
+    left: 4vw;
+    z-index: 9;
+}
+
+header .logo h1 {
+    text-align: center;
+}
+
+*::selection {
+    background-color: #D9E1CC;
+}
+
+header .logo h4 {
+    text-align: center;
+    font-size: 8px;
+}
+
+nav {
+    position: fixed;
+    top: 4vw;
+    right: 10vw;
+    z-index: 9;
+}
+
+nav a {
+    margin: 0 1vw;
+    font-weight: 900;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: #000;
+}
+
+nav a i {
+    position: fixed;
+    font-size: 2vw;
+    bottom: 6vw;
+    right: 5vw;
+}
+
+.home {
+    margin: 4vh 2vw;
+    margin-left: 30vw;
+    padding: 2vw;
+}
+
+.home h1 {
+    font-size: 10vw;
+    color: #38524F;
+}
+
+.home #circle {
+    border: 2px solid #38524F;
+    height: 8.5vw;
+    width: 8.5vw;
+    padding: 1vw;
+    border-radius: 50%;
+}
+
+.home #circle span {
+    font-size: 1.5vw;
+}
+
+.one #s1-img-cont {
+    display: flex;
+    justify-content: center;
+    height: 60vw;
+    width: 90%;
+}
+
+.one img {
+    height: 100%;
+    width: 100%;
+}
+
+/*  Section TWO */
+
+
+
+.two {
+    height: fit-content;
+    padding: 5vw 5vw;
+    gap: 5vw;
+    position: relative;
+}
+
+.two .two-left {
+    height: 80vw; 
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.two .two-left img {
+    height: 60%;
+}
+
+.two .two-right {
+    width: 49%;
+}
+
+.two span{
+    font-size: 2vw;
+    position: absolute;
+    left: 40vw;
+}
+
+.two-Foot-r .right-text{
+    gap: 4vw;
+    width: 90%;
+    padding: 0 6vw;
+    color: #38524F;
+}
+
+.right-text h4 {
+    font-size: 3.5vw;
+    font-weight: 600;
+}
+
+.right-text p {
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    line-height: 1.75;
+}
+
+.right-text a {
+    font-size: 1.8vw;
+    font-family: sans-serif;
+    line-height: 1.75;
+    color: #38524F;
+}
+
+
+.two .right-img {
+    margin-top: 8vw;
+    width: 90%;
+}
+
+.two .right-img img{
+    width: 100%;
+}
+
+/* Section THREE */
+
+.three{
+    height: fit-content;
+}
+
+.three .big-img-container{
+    height: 80vw;
+    width: 100%;
+}
+
+.three .big-img-container img{
+    height: 100%;
+    width: 100%;
+}
+
+.second{
+    background-color: #082320;
+    padding: 8vw 0vw;  
+}
+
+.second .second-child1{
+    position: relative;
+    margin: 12vw 4vw;
+    padding-left: 5vw;
+    margin-top: 6vw;
+}
+
+.second .second-child1 #ico{
+    position: absolute;
+    color: #D9E1CC;
+    font-size: 2vw;
+    left: 0vw;
+}
+
+.second .second-child1 h1{
+    font-size:12vw;
+    color: #D9E1CC;
+}
+
+.three #kircle {
+    border: 2px solid #38524F;
+    color: #D9E1CC;
+    font-size: 1.5vw;
+    height: 8.5vw;
+    width: 8.5vw;
+    padding: 2vw;
+    border-radius: 50%;
+}
+
+.second-child2{
+    padding: 0 6vw;
+}
+
+.second-child2 .second-text{
+    padding: 2vw 0vw;
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    width: 80%;
+    color: #D9E1CC;
+}
+
+.second-text h4{
+    font-size: 3vw;
+}
+
+.second-text p{
+    font-size: 1.5vw;
+    line-height: 1.6;
+    font-family: sans-serif;
+}
+
+.second-text a{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: #D9E1CC;
+    font-family: sans-serif;
+}
+
+.second-img{
+    margin: 5vw 0;
+    height: 65vw;
+    overflow: hidden;
+    margin-top: 10vw;
+}
+
+.second-img img{
+    height: 100%;
+    margin-top: 10vw;
+}
+
+
+.second-child2 .second-left{
+    width: 50%;
+}
+
+.second-child2 .second-right{
+    width: 55%;
+    height: 65vw;
+    overflow: hidden;
+}
+
+.second-right img{
+    height: 100%;
+    scale:0.8;
+}
+
+/* Section FOUR */
+
+.four{
+    background-color: #082320;
+    padding: 4vw 6vw;
+    position: relative;
+    height: 120vw;
+    overflow: hidden;
+}
+
+.four .dad{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 90%;
+    gap: 10vw;
+    overflow: hidden;
+    padding: 6vw 0;
+}
+
+.dad .anim-cont{
+    height:36vw;
+    width: 100%;
+}
+
+.dad .anim-cont img{
+    height: 100%;
+}
+
+.four .big-text{
+    position: fixed;
+    font-size: 11vw;
+    padding: 6vw;
+    color: #D9E1CC;
+    text-align: center;
+}
+
+/* Section FIVE */
+
+.five{
+    padding: 8vw 0vw;
+    padding-bottom: 0;
+    padding-right: 0vw;
+    background-color: #082320;
+}
+
+.five>div{
+    padding: 0 8vw;
+     display: flex;
+     justify-content: space-between;
+     position: relative;
+}
+
+.five span{
+    font-size: 2vw;
+    color: #D9E1CC;
+    position: absolute;
+    left: 42vw;
+    margin-top: 0.5vw;
+}
+
+.five .lll{
+    height: 80vw;
+}
+
+.lll .lll-img{
+    height: 52vw;
+    width: 90%;
+}
+
+.lll .lll-img img{
+    height: 100%;
+}
+
+.five .rrr{
+    width: 50%;
+}
+
+.rrr .rrr-text{
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    padding: 0 2vw;
+    padding-right: 12vw;
+    color: #D9E1CC;
+    margin-bottom: 5vw;
+}
+
+.rrr-text h4{
+    font-size: 3.5vw;
+}
+
+.rrr-text p{
+    font-size: 1.6vw;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+.rrr-text a{
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    color: #D9E1CC;
+}
+
+.rrr .rrr-img{
+    height: 52vw;
+    width: 90%;
+}
+
+.rrr-img img{
+    height: 100%;
+    width: 80%;
+}
+
+.five aside{
+    padding: 14vw 0 0 0;
+    height: 70vw;  
+    overflow: hidden;
+}
+
+.five aside img{
+    width: 100%;
+}
+
+
+/* Section SIX */
+
+.six{
+    background-color: #D8E0CB;
+    padding-top: 12vw;
+}
+
+.six span{
+    position: absolute; 
+    padding: 20vw 7.5vw;
+    width: 5vw;
+    height: 32vw;
+}
+
+.six span h1{
+    font-size: 5vw;
+    color: #082320;
+    transform: rotate(-90deg);
+}
+
+.six span .idea2{
+    margin-left:5vw;
+}
+
+.series{
+    margin-left: 18vw;
+    position: relative;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.series .movie{
+    display: inline-block;
+    position: relative;
+    width: 45vw;
+    height: 60vw;
+    margin: 0 2vw;
+    transform: rotate(-2deg);
+}
+
+.series .inn{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.series img{
+    height: 100%;
+    width: 140%;
+}
+
+.movie .hinn{
+    color: #D9E1CC;
+    position: absolute;
+    font-size: 3.5vw;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-bottom: 3vw;
+}
+
+
+::-webkit-scrollbar{
+    height: 4px;
+    width: 4px;
+    background: gray;
+}
+::-webkit-scrollbar-thumb:horizontal{
+    background: #000;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+
+footer{
+    padding: 12vw 12vw;
+    background-color: #D9E1CC;
+}
+
+#mani{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#mani .Foot-l{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5vw;
+    color: #082320;
+    width: 45%;
+}
+
+.Foot-l .fff{
+    overflow: hidden;
+}
+
+.Foot-l span{
+    border-top: 1px solid #082320;
+    font-size: 1.5vw;
+}
+.Foot-l a{
+    color: #082320;
+    text-decoration: none;
+    font-size: 3.5vw;
+    margin-left: 5vw;
+    display: inline-block;
+}
+
+.Foot-r{
+    width: 40%;
+}
+
+.Foot-r .links{
+    display: grid;
+    grid-template-columns: 14vw 14vw;
+    grid-template-rows: 10vw;
+}
+
+.links a{
+    font-size: 2vw;
+    color: #082320;
+    text-decoration: none;
+}
+
+.Foot-r p{
+    margin-top: 6vw;
+    line-height: 1.6;
+    width: 90%;
+    font-size: 1vw;
+    color: #082320;
+    font-family: sans-serif;
+}
+
+footer .imp{
+    margin-top: 6vw;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+footer .imp a{
+    border: 1px solid #082320;
+    padding: 1vw;
+    font-size: 2vw;
+    color: #082320;
+}
+
+footer .fooo{
+    margin-top: 12vw;
+    text-align: center;
+}
+
+.fooo p, .fooo a{
+    font-family: sans-serif;
+    font-size: 1.2vw;
+}
+
+.fooo a{
+    display: block;
+    color: #082320;
+    margin-top: 1vw;
+}

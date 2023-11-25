@@ -1,0 +1,23 @@
+.flex{
+    display: flex;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.center{
+    align-items: center;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.end{
+    justify-content: end;
+}
+
+.rotatedImg{
+    transform: rotate(5deg);
+}

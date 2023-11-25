@@ -357,7 +357,7 @@ nav a i {
     font-size: 2vw;
     color: #D9E1CC;
     position: absolute;
-    left: 42vw;
+    left: 47vw;
     margin-top: 0.5vw;
 }
 
@@ -383,7 +383,7 @@ nav a i {
     flex-direction: column;
     gap: 4vw;
     padding: 0 2vw;
-    padding-right: 12vw;
+    padding-right: 10vw;
     color: #D9E1CC;
     margin-bottom: 5vw;
 }
@@ -405,13 +405,13 @@ nav a i {
 }
 
 .rrr .rrr-img{
-    height: 52vw;
-    width: 90%;
+    height: 55vw;
+    width: 100%;
 }
 
 .rrr-img img{
     height: 100%;
-    width: 80%;
+    width: 92%;
 }
 
 .five aside{

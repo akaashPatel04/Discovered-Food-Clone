@@ -48,7 +48,7 @@ function imgAnim() {
       scroller: ".grand-pita",
       start: "top 95%",
       end: "bottom 40%",
-      scrub: 4,
+      scrub: 2,
     },
   });
 
